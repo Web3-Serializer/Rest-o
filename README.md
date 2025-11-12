@@ -1,4 +1,4 @@
-# 🍽️ Rest’o | Modern Restaurant Management App
+# 🍽️ Rest’o - Modern Restaurant Management App
 
 **Rest'o** is an open-source, full-stack restaurant management platform.
 It allows restaurants to easily manage **menus, orders, and reservations** with a modern and responsive interface.
