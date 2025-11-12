@@ -52,8 +52,8 @@ It allows restaurants to easily manage **menus, orders, and reservations** with 
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/resto.git
-cd resto
+git clone https://github.com/Web3-Serializer/rest-o.git
+cd rest-o
 
 # Install dependencies
 npm install
@@ -131,4 +131,4 @@ See [LICENSE](./LICENSE) for more details.
 
 ---
 
-> ✨ *Rest’o - Open Source Restaurant Management for the Modern Web.*
+> ✨ *Rest'o - Open Source Restaurant Management for the Modern Web.*
