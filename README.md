@@ -7,15 +7,15 @@ It allows restaurants to easily manage **menus, orders, and reservations** with 
 
 ## 🚀 Features
 
-✅ **Menu Management** - Add, edit, and delete dishes from your restaurant’s menu.
-✅ **Order Tracking** - Monitor and process live customer orders.
-✅ **Table Reservations** - Manage and visualize restaurant bookings.
-✅ **Authentication System** - Secure login & registration with JWT.
-✅ **Internationalization (i18n)** - Supports English 🇬🇧 and French 🇫🇷.
-✅ **Responsive Design** - Works perfectly on desktop, tablet, and mobile.
-✅ **Smooth Animations** - Powered by Framer Motion.
-✅ **Beautiful UI** - Built with Shadcn/UI + TailwindCSS.
-✅ **Open Source** — MIT licensed, easy to extend and contribute.
+✅ **Menu Management** - Add, edit, and delete dishes from your restaurant's menu.<br>
+✅ **Order Tracking** - Monitor and process live customer orders.<br>
+✅ **Table Reservations** - Manage and visualize restaurant bookings.<br>
+✅ **Authentication System** - Secure login & registration with JWT.<br>
+✅ **Internationalization (i18n)** - Supports English 🇬🇧 and French 🇫🇷.<br>
+✅ **Responsive Design** - Works perfectly on desktop, tablet, and mobile.<br>
+✅ **Smooth Animations** - Powered by Framer Motion.<br>
+✅ **Beautiful UI** - Built with Shadcn/UI + TailwindCSS.<br>
+✅ **Open Source** — MIT licensed, easy to extend and contribute.<br>
 
 ---
 
