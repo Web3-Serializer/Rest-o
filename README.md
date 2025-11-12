@@ -15,7 +15,7 @@ It allows restaurants to easily manage **menus, orders, and reservations** with 
 ✅ **Responsive Design** - Works perfectly on desktop, tablet, and mobile.<br>
 ✅ **Smooth Animations** - Powered by Framer Motion.<br>
 ✅ **Beautiful UI** - Built with Shadcn/UI + TailwindCSS.<br>
-✅ **Open Source** — MIT licensed, easy to extend and contribute.<br>
+✅ **Open Source** - MIT licensed, easy to extend and contribute.<br>
 
 ---
 
