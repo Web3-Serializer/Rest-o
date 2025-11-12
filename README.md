@@ -107,7 +107,7 @@ Run `npm run lint` before pushing changes.
 
 ---
 
-## 🪪 License
+## 📜 License
 
 This project is licensed under the **MIT License**.
 Feel free to use, modify, and distribute it freely.
