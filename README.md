@@ -1,134 +1,118 @@
-# 🍽️ Rest’o - Modern Restaurant Management App
+# 🍽️ Rest’o
 
-**Rest'o** is an open-source, full-stack restaurant management platform.
-It allows restaurants to easily manage **menus, orders, and reservations** with a modern and responsive interface.
+Rest’o is a full-stack restaurant management app.
+
+It covers the basics you actually need: menus, orders, reservations, and auth.  
+Nothing overcomplicated, just a clean base you can build on.
 
 ---
 
 ## 🚀 Features
 
-✅ **Menu Management** - Add, edit, and delete dishes from your restaurant's menu.<br>
-✅ **Order Tracking** - Monitor and process live customer orders.<br>
-✅ **Table Reservations** - Manage and visualize restaurant bookings.<br>
-✅ **Authentication System** - Secure login & registration with JWT.<br>
-✅ **Internationalization (i18n)** - Supports English 🇬🇧 and French 🇫🇷.<br>
-✅ **Responsive Design** - Works perfectly on desktop, tablet, and mobile.<br>
-✅ **Smooth Animations** - Powered by Framer Motion.<br>
-✅ **Beautiful UI** - Built with Shadcn/UI + TailwindCSS.<br>
-✅ **Open Source** - MIT licensed, easy to extend and contribute.<br>
+- CRUD for menu items
+- Order tracking (live updates friendly)
+- Reservation management
+- JWT auth (login / register)
+- i18n ready (en + fr for now)
+- Responsive UI
+- Simple animations (Framer Motion)
+- Easy to extend
 
 ---
 
-## 🛠️ Tech Stack
-
-### 🧠 Frontend
-
-| Category      | Technology                                                                     |
-| ------------- | ------------------------------------------------------------------------------ |
-| Framework     | [React](https://react.dev/) + [Vite](https://vitejs.dev/)                      |
-| Language      | [TypeScript](https://www.typescriptlang.org/)                                  |
-| UI Library    | [Shadcn/UI](https://ui.shadcn.com/) + [Tailwind CSS](https://tailwindcss.com/) |
-| Animations    | [Framer Motion](https://www.framer.com/motion/)                                |
-| Icons         | [Lucide React](https://lucide.dev/)                                            |
-| Routing       | [React Router DOM](https://reactrouter.com/)                                   |
-| State & Auth  | React Context API                                                              |
-| i18n          | [react-i18next](https://react.i18next.com/)                                    |
-
-### 🗄️ Backend
-
-| Category  | Technology                                                |
-| --------- | --------------------------------------------------------- |
-| Runtime   | [Node.js](https://nodejs.org/)                            |
-| Framework | [Express.js](https://expressjs.com/)                      |
-| Database  | [MongoDB](https://www.mongodb.com/)                       |
-| Auth      | JWT (JSON Web Token)                                      |
-| API       | RESTful endpoints for menus, orders, reservations & users |
-
----
-
-## ⚙️ Installation & Setup
+## 🛠️ Stack
 
 ### Frontend
+- React + Vite
+- TypeScript
+- Tailwind + shadcn/ui
+- React Router
+- Context API (auth + state)
+- react-i18next
 
+### Backend
+- Node.js
+- Express
+- MongoDB
+- JWT auth
+- REST API
+
+---
+
+## ⚙️ Setup
+
+### Clone
 ```bash
-# Clone repository
 git clone https://github.com/Web3-Serializer/rest-o.git
 cd rest-o
+```
 
-# Install dependencies
+### Frontend
+```bash
 npm install
-
-# Start development server
 npm run dev
 ```
 
 ### Backend
-
 ```bash
 cd server
-
-# Install backend dependencies
 npm install
+```
 
-# Add your MongoDB URI in a .env file
-echo "MONGO_URI=your_connection_string" > .env
+Create a `.env` file:
+```bash
+MONGO_URI=your_connection_string
+```
 
-# Start backend server
+Run server:
+```bash
 npm run dev
 ```
 
-Frontend will run on `http://localhost:5173`
-Backend will run on `http://localhost:5000`
+---
+
+## 📍 Ports
+
+- Frontend: http://localhost:5173
+- Backend: http://localhost:5000
 
 ---
 
-## 🌍 Internationalization
+## 🌍 i18n
 
-Rest’o supports **English (en)** and **French (fr)** using `react-i18next`.
-You can add more languages by creating JSON files in:
-
+Translations live in:
 ```
 src/i18n/locales/
 ```
 
+Add a new JSON file and plug it into the config.
+
 ---
 
-## 🧑‍💻 Contributing
+## 🤝 Contributing
 
-We ❤️ open source!
-If you want to improve Rest’o:
+PRs are welcome.
 
-1. Fork the repo
-2. Create a feature branch
-3. Commit your changes
-4. Submit a pull request
+Basic flow:
+1. Fork
+2. Create branch
+3. Commit
+4. Open PR
 
-Run `npm run lint` before pushing changes.
+Run lint before pushing:
+```bash
+npm run lint
+```
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License**.
-Feel free to use, modify, and distribute it freely.
-See [LICENSE](./LICENSE) for more details.
+MIT
 
 ---
 
-## 💖 Acknowledgements
+## Notes
 
-* [React](https://react.dev/)
-* [Vite](https://vitejs.dev/)
-* [Tailwind CSS](https://tailwindcss.com/)
-* [Shadcn/UI](https://ui.shadcn.com/)
-* [Sonner](https://ui.shadcn.com/docs/components/sonner)
-* [Framer Motion](https://www.framer.com/motion/)
-* [Lucide Icons](https://lucide.dev/)
-* [MongoDB](https://www.mongodb.com/)
-* [Express](https://expressjs.com/)
-* [Node.js](https://nodejs.org/)
-* [react-i18next](https://react.i18next.com/)
-
----
-
-> ✨ *Rest'o - Open Source Restaurant Management for the Modern Web.*
+This project is meant to be a solid starting point.  
+Feel free to tweak structure, add features, or plug in your own stack pieces.
